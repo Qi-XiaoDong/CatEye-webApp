@@ -1,0 +1,11 @@
+@import './reset.css';
+@import 'https://at.alicdn.com/t/font_1706805_bv8b94gelfs.css';
+/*以iphone6 为基准点*/
+html{
+	font-size: 13.33333333vw;
+}
+/* @media screen and (min-width: 750px){
+	html{
+		font-size: 99.99999px;	
+	}
+} */

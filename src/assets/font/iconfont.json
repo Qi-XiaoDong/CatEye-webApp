@@ -1,0 +1,79 @@
+{
+  "id": "1706805",
+  "name": "猫眼移动",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2578447",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9512532",
+      "name": "叉",
+      "font_class": "cross",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "10308069",
+      "name": "电影",
+      "font_class": "dianying1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "13263655",
+      "name": "我 的 (5)",
+      "font_class": "wode",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    },
+    {
+      "icon_id": "12754699",
+      "name": "影院",
+      "font_class": "yingyuan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13145312",
+      "name": "我 的",
+      "font_class": "home",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "13251461",
+      "name": "电影",
+      "font_class": "dianying",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "2575927",
+      "name": "下箭头",
+      "font_class": "f11",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6527811",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5364970",
+      "name": "左箭头",
+      "font_class": "icon-copy",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}
