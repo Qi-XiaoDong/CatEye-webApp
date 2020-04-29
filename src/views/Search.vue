@@ -44,10 +44,12 @@
         </div>    -->
     <!-- 搜索结果列表结束 -->
     <!-- 历史记录区域 -->
-    <div class="search__history " v-if="historyArr.length > 0">
+    <div class="search__history " v-if="historyListshow">
       <ul>
         <li v-for="(history, index) in historyArr" :key="history">
-          <span class="search__keyword">{{ history }}</span>
+          <span class="search__keyword"
+            @click="backfillHistory(history)"
+          >{{ history }}</span>
           <i class="iconfont icon-cross" @click="cancleHistory(index)"></i>
         </li>
       </ul>
@@ -72,7 +74,7 @@ export default {
       more_show: true,
       back_show: true,
       searchContent: "",
-      historyArr: []
+      historyArr: [],
     };
   },
   components: {
@@ -85,6 +87,11 @@ export default {
       this.getLocal();
     }
   },
+  computed : {
+    historyListshow () {
+      return this.searchContent === "";
+    }
+  },
   methods: {
     setHistory() {
       const flag = this.historyArr.includes(this.searchContent);
@@ -94,21 +101,28 @@ export default {
       this.searchContent = "";
       this.addLocal();
     },
+    /**删除历史记录 */
     cancleHistory(deltetIndex) {
       this.historyArr = this.historyArr.filter((ele, index) => {
         return index !== deltetIndex;
       });
       this.addLocal();
     },
+    /**添加到本地 */
     addLocal() {
       localStorage.setItem("history", this.historyArr);
       sessionStorage.setItem("history", this.historyArr);
     },
+    /**从本地获取 */
     getLocal() {
       this.historyArr = localStorage.getItem("history").split(",");
       if (this.historyArr[0] === "") {
         this.historyArr = [];
       }
+    },
+    /**回填历史记录点击 */
+    backfillHistory (history) {
+      this.searchContent = history;
     }
   }
 };

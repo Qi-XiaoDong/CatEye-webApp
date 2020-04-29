@@ -1,0 +1,130 @@
+[
+    {
+        "id":1,
+        "name" : "万达电影",
+        "address" : "海城区北海大道215号南洋国际广场5楼万达影城",
+        "distance": "1000",
+        "tagArr" : [{
+            "id":11,
+            "className" : "allowRefund",
+            "tagName":"退"
+        },{  
+            "id":12,
+            "className" : "endorse",
+            "tagName":"改签"
+        },{  
+            "id":13,
+            "className" : "snack",
+            "tagName":"小吃"
+        },{ 
+             "id":14,
+            "className" : "vip",
+            "tagName":"折扣卡"
+        }],
+        "youhui":"开卡特惠，首单1张最高立减10元"
+    },
+    {
+        "id":2,
+        "name" : "UA电影城（上海梅龙镇广场店）",
+        "address" : "静安区南京西路1038号梅龙镇广场10楼（近江宁路）",
+        "distance": "1382.9",
+        "tagArr" : [{
+            "id":21,
+            "className" : "allowRefund",
+            "tagName":"退"
+        },{
+            "id":22,
+            "className" : "endorse",
+            "tagName":"改签"
+        },{
+            "id":23,
+            "className" : "snack",
+            "tagName":"小吃"
+        },{
+            "id":24,
+            "className" : "vip",
+            "tagName":"折扣卡"
+        }],
+        "youhui":"开卡特惠，首单2张最高立减4元"
+    },{
+        "id":3,
+        "name" : "大地影院（大华乐购店）",
+        "address" : "松江区松汇中路568号鹿都沃尔玛广场4楼（近庙前街）",
+        "distance": "1371",
+        "tagArr" : [{
+            "id":31,
+            "className" : "allowRefund",
+            "tagName":"退"
+        },{
+            "id":32,
+            "className" : "endorse",
+            "tagName":"改签"
+        },{
+            "id":33,
+            "className" : "snack",
+            "tagName":"小吃"
+        },{
+            "id":34,
+            "className" : "vip",
+            "tagName":"折扣卡"
+        }],
+        "youhui":"开卡特惠，首单2张最高立减10元"
+    },{
+        "id":4,
+        "name" : "大兴影剧院",
+        "address" : "大兴区黄村西大街15号",
+        "distance": "1011",
+        "tagArr" : [{
+            "id":41,
+            "className" : "allowRefund",
+            "tagName":"退"
+        },{
+            "id":42,
+            "className" : "endorse",
+            "tagName":"改签"
+        },{
+            "id":43,
+            "className" : "vip",
+            "tagName":"折扣卡"
+        }],
+        "youhui":"开卡特惠，首单2张最高立减6元"
+    },{
+        "id":5,
+        "name" : "横店电影城（瑞景店）",
+        "address" : "北辰区辰昌路1901号（地铁1号线西横堤地铁站旁）",
+        "distance": "1039",
+        "tagArr" : [{
+            "id":51,
+            "className" : "allowRefund",
+            "tagName":"退"
+        },{
+            "id":52,
+            "className" : "vip",
+            "tagName":"折扣卡"
+        }],
+        "youhui":"开卡特惠，首单2张最高立减6元"
+    },{
+        "id":6,
+        "name" : "天影朗香国",
+        "address" : "和平区建设路88号小白楼朗香街B2楼（近音乐厅）",
+        "distance": "1042",
+        "tagArr" : [{
+            "id":61,
+            "className" : "allowRefund",
+            "tagName":"退"
+        },{
+            "id":62,
+            "className" : "endorse",
+            "tagName":"改签"
+        },{
+            "id":63,
+            "className" : "snack",
+            "tagName":"小吃"
+        },{
+            "id":64,
+            "className" : "vip",
+            "tagName":"折扣卡"
+        }],
+        "youhui":"开卡特惠，首单2张最高立减6元"
+    }
+]

@@ -61,7 +61,7 @@
 
 <script>
 import TopBar from "@/components/common/TopBar.vue";
-import MyInput from "@/components/mine/Input.vue";
+import MyInput from "@/components/MineInput.vue";
 export default {
   name: "mine",
   data() {

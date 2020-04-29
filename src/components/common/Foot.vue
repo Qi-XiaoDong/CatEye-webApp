@@ -37,13 +37,18 @@ export default {};
       color: @TopBar_color;
     }
     i {
-      width: 25px;
-      height: 25px;
-      font-size: 25px;
+      width: 0.5rem;
+      height: 0.5rem;
+      font-size: 0.5rem;
     }
     p {
       font-size: 12px;
     }
+  }
+}
+@media screen and (min-width:750px) {
+  .footer {
+      width:750px;
   }
 }
 </style>

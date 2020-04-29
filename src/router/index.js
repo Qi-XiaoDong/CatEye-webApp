@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/home/Home.vue";
+import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
 
@@ -18,29 +18,34 @@ const routes = [
       {
         path: "hotmovie",
         name: "hotmovie",
-        component: () => import("@/views/home/HotMovie.vue")
+        component: () => import("@/views/HomeHotMovie.vue")
       },
       {
         path: "willmovie",
         name: "willmovie",
-        component: () => import("@/views/home/WillMovie.vue")
+        component: () => import("@/views/HomeWillMovie.vue")
       }
     ]
   },
   {
     path: "/cinema",
     name: "cimema",
-    component: () => import("@/views/cinema/Cinema.vue")
+    component: () => import("@/views/Cinema.vue")
   },
   {
     path: "/search",
     name: "search",
-    component: () => import("@/views/search/Search.vue")
+    component: () => import("@/views/Search.vue")
   },
   {
     path: "/mine",
     name: "mine",
-    component: () => import("@/views/mine/Mine.vue")
+    component: () => import("@/views/Mine.vue")
+  },
+  {
+    path: "/city",
+    name: "city",
+    component : () => import("@/views/City.vue")
   }
 ];
 

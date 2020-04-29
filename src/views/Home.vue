@@ -18,7 +18,7 @@
     <!-- 导航 -->
     <nav class="nav">
       <div class="nav_city">
-        <span>宝鸡</span>
+        <router-link to='/city' tag="span">{{ curCity }}</router-link>
         <i class="iconfont icon-f11"></i>
       </div>
       <div class="nav_movie">
@@ -37,7 +37,7 @@
     <!-- <keep-alive> -->
     <router-view class="router" :class="{ top: !downloadShow }" />
     <!-- </keep-alive> -->
-    <!-- 底部 -->
+<!-- 底部 -->
     <my-foot />
   </div>
 </template>
@@ -45,15 +45,20 @@
 <script>
 import TopBar from "@/components/common/TopBar.vue";
 import MyFoot from "@/components/common/Foot.vue";
+import {mapState} from 'vuex';
 export default {
   name: "Home",
   data() {
     return {
       downloadShow: true,
       title: "猫眼电影",
-      more_show: true
+      more_show: true,
     };
   },
+  computed : {
+    ...mapState(['curCity'])
+  },
+
   methods: {
     changeDownloadShow(flag) {
       this.downloadShow = flag;
@@ -67,6 +72,11 @@ export default {
 </script>
 
 <style scoped lang="less">
+.home{
+  height: 100vh;
+  width:100%;
+  position: relative;
+}
 .download {
   width: 100%;
   height: 1.28rem;
@@ -181,6 +191,9 @@ export default {
   top: 3.11rem;
   bottom: 53px;
   overflow: scroll;
+  &::-webkit-scrollbar{
+    display: none;
+  }
   &.top {
     top: 2.1rem;
   }

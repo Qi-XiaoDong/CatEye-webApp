@@ -1,8 +1,8 @@
 body {
 	font-family: helvetica;
-	/* max-width: 750px; */
+	max-width: 750px;
+	overflow: hidden;
 	margin: 0 auto;
-
 	font-size: 12px;	/* 需要限制一个字体大小，要不然的话默认字体大小也会跟着变 */
 }
 body * {

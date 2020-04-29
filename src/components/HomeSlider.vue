@@ -44,21 +44,26 @@ export default {
     ul {
       display: flex;
       overflow: auto;
+      &::-webkit-scrollbar{
+        display: none;
+      }
       li {
         flex: 1 0 1.7rem;
-        height: 2.82;
+        min-height: 2.82rem;
         margin-right: 0.2rem;
         a {
           width: 100%;
           height: 100%;
           display: block;
           img {
-            width: 100%;
+            width: 85px;
+            height: 115px;
             display: block;
           }
           h5 {
             margin: 0.1rem 0;
             color: #000;
+            font-size: 13px;
           }
           .time {
             font-size: 0.24rem;

@@ -1,0 +1,35 @@
+[
+    {
+        "id":123456,
+        "time":"三月待定",
+        "imgUrl" :"https://p0.meituan.net/128.180/movie/115273d73084aa4e54c3401f7457e9fa1185899.jpg",
+        "name": "站住! 小偷",
+        "want":18500,
+        "act":"孙悟空，猪八戒",
+        "preciseTime":"2020-2-12"
+    },{
+        "id":223456,
+        "time":"4月25日 周六",
+        "imgUrl" :"https://p1.meituan.net/128.180/movie/d3f2c33b95e10f54dc402de27bb4bdc11292214.jpg",
+        "name": "麦兜·饭宝奇兵",
+        "want":1500,
+        "act":"大汪,孙小妞,张正中",
+        "preciseTime":"2020-04-25"
+    },{
+        "id":323456,
+        "time":"4月30日 周四",
+        "imgUrl" :"https://p1.meituan.net/128.180/movie/fcabb91dbae511e8a32af1deeb0c1cec204154.jpg",
+        "name": "大红包",
+        "want":15000,
+        "act":"包贝尔,克拉拉,贾冰",
+        "preciseTime":"2020-04-30"
+    },{
+        "id":3456,
+        "time":"四月待定",
+        "imgUrl" :"https://p1.meituan.net/128.180/movie/51d3b0c39d082db32c3534cb68338b441447222.png",
+        "name": "灰烬重生",
+        "want":15600,
+        "act":"罗晋,辛鹏,黄觉",
+        "preciseTime":"2020-04"
+    }
+]
